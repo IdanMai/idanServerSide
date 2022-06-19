@@ -5,21 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="{{url_for('static', filename='styles.css') }}">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Contact</title>
 </head>
-<!--  background="" -->
-
+{% include('header.html') %}
 <body>
     <img src="{{url_for('static', filename='how-to-write-a-letter.jpg')}}" class="bg" />
     <img src="{{url_for('static', filename='how-to-write-a-letter.png')}}" class="mobile-bg" />
-    <header>
-        <a href="/" id="nav__home-link">Home</a>
-        <a href="/contact" id="nav__contact-link">Contact</a>
-         <a href="/assignment3_1">Assignment3 1</a>
-    </header>
+
     <h1>Contact Form</h1>
     <span>
         <form action="" id="only-form">

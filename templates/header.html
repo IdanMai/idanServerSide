@@ -1,0 +1,11 @@
+<header>
+    <a href="/">Home Page</a>
+    <a href="/contact">Contact</a>
+    <a href="/assignment3_1">Assignment3 1</a>
+    <a href="/assignment3_2">Assignment3 2</a>
+    {% if session['logedin'] %}
+        <a class="LgI"> Hi, {{ session['username'] }}</a>
+    {% else %}
+        <a class="LgI">Please Log In</a>
+    {% endif %}
+</header>

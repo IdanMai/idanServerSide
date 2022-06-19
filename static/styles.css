@@ -37,6 +37,11 @@ header > a{
     margin: 0 8px;
 }
 
+.LgI{
+    color: black;
+}
+
+
 h1{
     font-size: 45px;
 }
@@ -196,6 +201,13 @@ footer:hover {
     margin: 10px auto;
 }
 
+.user_container{
+    background-color: rgb(188, 226, 100);
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
 
 @media (max-width: 700px){
     .bg{

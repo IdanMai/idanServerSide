@@ -1,13 +1,9 @@
 {% extends 'base.html' %}
 {% set title='assignment3_1' %}
-{% block title %}{{ title }} Page{% endblock %}
+{% block title %}{{ title }} Page {% endblock %}
 {% set page = 'assignment3_1' %}
 {% block content %}
-<header>
-    <a href="/">Home</a>
-    <a href="/contact">Contact</a>
-    <a href="/assignment3_1">Assignment3 1</a>
-</header>
+
 <body>
 <div class="home-page__container">
     {% if user_name == 'shay' %}
